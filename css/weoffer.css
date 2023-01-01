@@ -8,9 +8,9 @@
     font-size: 4.5rem;
     color: var(--text-color-white);
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:415px){
     .weoffer_div1_1_1_h1{
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
 }
 .weoffer_div1_1_1_h1_span1{

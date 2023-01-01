@@ -17,7 +17,7 @@
     --second-color: #ffb24e;
     --third-color: #c2b0dd;
     --fourth-color: #fffc80;
-    --fifth-color: green;
+    --fifth-color: #abffdd;
     --facebook-color: #76aeff;
     --whatsapp-color: #49ffc1;
     --insta-color: #c771d7;
@@ -559,7 +559,7 @@ footer .footer2 .footer2_title{
         padding: 1rem;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:439px){
     .index_div2_1_2_img1{
         padding: 1rem;
     }
