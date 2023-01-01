@@ -12,6 +12,14 @@
     color: var(--accent-color);
     font-weight: bolder;
 }
+@media screen and (max-width:376px){
+    .aboutus_div1_1_1_h1{
+        font-size: 2.4rem;
+    }
+    .aboutus_div1{
+        padding: 0;
+    }
+}
 .aboutus_div1_1_2{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -43,9 +51,9 @@
     font-weight: lighter;
 }
 @media screen and (max-width:1243px){
-    .universal_container{
+    /* .universal_container{
         width: var(--container-width-md);
-    }
+    } */
     .aboutus_div1_1_2{
         display: grid;
         grid-template-columns: 1fr;
@@ -61,8 +69,14 @@
     }
 }
 .aboutus_div2{
+    margin-top: 20px;
     padding: 1rem;
     margin-top: 50px;
+}
+@media screen and (max-width:376px){
+    .aboutus_div2{
+        padding: 0;
+    }
 }
 .aboutus_div2_1{
     padding: 1rem;
@@ -71,18 +85,83 @@
     color: var(--accent-color);
 }
 .aboutus_div2_1_2_p{
-    margin-top: 20px;
+    margin-top: 30px;
+}
+.aboutus_div2nd3{
+    padding: 1rem;
+}
+.aboutus_div2nd3_1{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--text-color-white);
+    text-align: center;
+}
+.aboutus_div2nd3_1_cont1_text, .aboutus_div2nd3_1_cont2_text, .aboutus_div2nd3_1_cont3_text{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.aboutus_div2nd3_1_cont1, .aboutus_div2nd3_1_cont2, .aboutus_div2nd3_1_cont3{
+    padding: 1rem;
+    border-bottom: 5px solid var(--background-color);
+}
+.aboutus_div2nd3_1_cont1:hover{
+    border-bottom: 5px solid var(--third-color);
+    transition: var(--transition);
+}
+.aboutus_div2nd3_1_cont2:hover{
+    border-bottom: 5px solid var(--fourth-color);
+    transition: var(--transition);
+}
+.aboutus_div2nd3_1_cont3:hover{
+    border-bottom: 5px solid var(--fifth-color);
+    transition: var(--transition);
+}
+@media screen and (max-width:768px){
+    .aboutus_div2nd3_1{
+        font-size: 1.5rem;
+    }
+    .aboutus_div2nd3_1_cont1_text, .aboutus_div2nd3_1_cont2_text, .aboutus_div2nd3_1_cont3_text{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:659px){
+    .aboutus_div2nd3_1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:375px){
+    .aboutus_div2nd3_1{
+        padding: 0;
+    }
+    .aboutus_div2nd3{
+        font-size: 1rem;
+    }
+    .aboutus_div2nd3_1_cont1_text, .aboutus_div2nd3_1_cont2_text, .aboutus_div2nd3_1_cont3_text{
+        font-size: 0.5rem;
+    }
 }
 .aboutus_div3_1_2_1_1_img1_img, .buttercup, .aboutus_div3_1_2_3_1_img1_img, .aboutus_div3_1_2_4_1_img1_img, .aboutus_div3_1_2_5_1_img1_img{
-    height: auto;
-    width: 100%;
+    /* height: auto; */
+    /* width: 100%; */
     border-radius: 2rem;
-    min-width: 180px;
+    min-width: 130px;
     /* margin-left: 20%; */
 }
 .aboutus_div3{
     padding: 1rem;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+}
+.aboutus_div3 img{
+    max-width: 180px;
+    height: auto;
 }
 .aboutus_div3_1{
     padding: 1rem;
@@ -170,9 +249,9 @@
     color: var(--fifth-color);
 }
 @media screen and (max-width:962px){
-    .universal_container{
+    /* .universal_container{
         width: var(--container-width-md);
-    }
+    } */
     .aboutus_div3_1_2_1, .aboutus_div3_1_2_2, .aboutus_div3_1_2_3, .aboutus_div3_1_2_4, .aboutus_div3_1_2_5{
         display: block;
     }
@@ -180,7 +259,7 @@
         margin-top: 1rem;
     }
     .aboutus_div3_1_2_1_1_img1_img, .buttercup, .aboutus_div3_1_2_3_1_img1_img, .aboutus_div3_1_2_4_1_img1_img, .aboutus_div3_1_2_5_1_img1_img{
-        max-width: 180px;
+        max-width: 140px;
     }
 }
 @media screen and (max-width:667px){
@@ -220,5 +299,13 @@
     }
     .aboutus_div3_1_2_1, .aboutus_div3_1_2_2, .aboutus_div3_1_2_3, .aboutus_div3_1_2_4, .aboutus_div3_1_2_5{
         display: block;
+    }
+}
+@media screen and (max-width:376px){
+    .aboutus_div3 img{
+        max-width: 140px;
+    }
+    .aboutus_div3_1_2, .aboutus_div3_1_2_1, .aboutus_div3_1_2_2, .aboutus_div3_1_2_3, .aboutus_div3_1_2_4, .aboutus_div3_1_2_5{
+        padding: 0;
     }
 }

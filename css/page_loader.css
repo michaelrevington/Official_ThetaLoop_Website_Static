@@ -1,15 +1,15 @@
-#preloader{
+/* #preloader{
     background-image: url("preloader.gif");
     background-color: #0000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* background: #0000 url("preloader2.gif") no-repeat center center; */
-    height: 100vh;
+    /*height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 100;
-}
+} */
 
 /* .reveal{
     position: relative;
