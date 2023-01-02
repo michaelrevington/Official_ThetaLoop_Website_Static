@@ -396,12 +396,12 @@ footer .footer2 .footer2_title{
         display: none;        
     }
     .index_div1_mobile{
-        display: flex;
+        display: block;
         margin-top: 2px;
     }
     .index_div1_1_1{
         display: grid;
-        grid-template-columns: min-content min-content;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: min-content min-content min-content;
         grid-template-areas: "title title"
         "fig1 fig2"
