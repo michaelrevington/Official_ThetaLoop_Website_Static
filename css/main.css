@@ -329,7 +329,7 @@ footer .footer2 .footer2_title{
     height: fit-content;
     grid-template-areas: "title title title title title fig1"
     "title title title title title fig2"
-    "empty spaceholder1 fig5 fig3 fig4 spaceholder2";
+    "empty spaceholder1 fig3 fig4 fig5 spaceholder2";
 }
 .index_div1_1_1_title{
     grid-area: title;
