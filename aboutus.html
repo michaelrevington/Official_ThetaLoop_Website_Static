@@ -85,7 +85,7 @@
         </div>
       </div>
     </div>
-    <div class="universal_container aboutus_div2nd3 reveal">
+    <div id="#stats_count" class="universal_container aboutus_div2nd3 reveal">
       <div class="aboutus_div2nd3_1">
         <div class="aboutus_div2nd3_1_cont1">
           <i class="uil uil-calendar-alt"></i>
@@ -235,10 +235,8 @@
         </div>
     </footer>
     <script type="text/javascript">
-      let mybutton = document.getElementById("pageUpBtn");
-      
-      window.onscroll = function() {scrollFunction()};
-      
+      let mybutton = document.getElementById("pageUpBtn");      
+      window.onscroll = function() {scrollFunction()};      
       function scrollFunction() {
         if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
           mybutton.style.display = "block";
@@ -246,7 +244,6 @@
           mybutton.style.display = "none";
         }
       }
-      
       function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
@@ -255,7 +252,6 @@
 
     <script type="text/javascript">
       window.addEventListener('scroll', reveal);
-
       function reveal(){
         var reveals = document.querySelectorAll('.reveal');
         for(var i = 0; i < reveals.length; i++){

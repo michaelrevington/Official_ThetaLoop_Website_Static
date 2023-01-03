@@ -112,14 +112,17 @@
 .aboutus_div2nd3_1_cont1:hover{
     border-bottom: 5px solid var(--third-color);
     transition: var(--transition);
+    color: var(--third-color);
 }
 .aboutus_div2nd3_1_cont2:hover{
     border-bottom: 5px solid var(--fourth-color);
     transition: var(--transition);
+    color: var(--fourth-color);
 }
 .aboutus_div2nd3_1_cont3:hover{
     border-bottom: 5px solid var(--fifth-color);
     transition: var(--transition);
+    color: var(--fifth-color);
 }
 @media screen and (max-width:768px){
     .aboutus_div2nd3_1{
@@ -145,7 +148,7 @@
         font-size: 1rem;
     }
     .aboutus_div2nd3_1_cont1_text, .aboutus_div2nd3_1_cont2_text, .aboutus_div2nd3_1_cont3_text{
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 }
 .aboutus_div3_1_2_1_1_img1_img, .buttercup, .aboutus_div3_1_2_3_1_img1_img, .aboutus_div3_1_2_4_1_img1_img, .aboutus_div3_1_2_5_1_img1_img{

@@ -304,9 +304,10 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.5fr 1fr;
-        grid-template-areas: "weoffer_div2_1_1_1_img1"
-        "weoffer_div2_1_1_2_img2"
-        "weoffer_div2_1_1_3_txt";
+        grid-template-areas:
+            "weoffer_div2_1_1_1_img1"
+            "weoffer_div2_1_1_2_img2"
+            "weoffer_div2_1_1_3_txt";
         row-gap: 2rem;
     }
     .weoffer_div2_1_1_1_img1{
@@ -381,9 +382,10 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.5fr 1fr;
-        grid-template-areas: "weoffer_div2_1_4_1_img1"
-        "weoffer_div2_1_4_2_img2"
-        "weoffer_div2_1_4_3_txt";
+        grid-template-areas:
+            "weoffer_div2_1_4_1_img1"
+            "weoffer_div2_1_4_2_img2"
+            "weoffer_div2_1_4_3_txt";
         row-gap: 2rem;
     }
     .weoffer_div2_1_4_1_img1{
@@ -442,25 +444,25 @@
         display: grid;
         grid-template-rows: auto auto auto;
         grid-template-columns: 1fr;
-        row-gap: 2rem;
+        /* row-gap: 2rem; */
     }
     .weoffer_div2_1_2{
         display: grid;
         grid-template-rows: auto auto auto;
         grid-template-columns: 1fr;
-        row-gap: 2rem;
+        /* row-gap: 2rem; */
     }
     .weoffer_div2_1_3{
         display: grid;
         grid-template-rows: auto auto auto;
         grid-template-columns: 1fr;
-        row-gap: 2rem;
+        /* row-gap: 2rem; */
     }
     .weoffer_div2_1_4{
         display: grid;
         grid-template-rows: auto auto auto;
         grid-template-columns: 1fr;
-        row-gap: 2rem;
+        /* row-gap: 2rem; */
     }
 }
 @media screen and (max-width:281px){
