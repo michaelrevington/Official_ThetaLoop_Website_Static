@@ -2,7 +2,7 @@
 <html lang="en-UK">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -16,7 +16,6 @@
     <meta name="author" content="U.L.Dhanuka Sheyam Perera">
     <meta name="copyright" content="ThetaLoop">
     <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <meta name="revisit-after" content="30 days">
     <link rel="icon" type="image/x-icon" href="resources/favicon_nd_logo_colored.png">
@@ -68,17 +67,32 @@
         <div class="contactus_div2_1_2">
           <form action="https://formspree.io/f/xrgvggdd" method="post"> <!--class="contact_form"-->
             <div class="contactus_div2_1_2_1">
-              <input type="text" id="fname" name="First Name" placeholder="Your name..." alt="Your Name" required>
-              <input type="email" name="Email Address" placeholder="Your Email Address..." alt="Your Email Address" required>
+              <div>
+                <label for="fname">Enter your name<span class="mandatory"><sup>*</sup></span></label>
+                <input id="fname" type="text" name="First Name" placeholder="Your Name..." alt="Your Name"  required arial-required="true">
+              </div>
+              <div>
+                <label for="user_email">Enter your email<span class="mandatory"><sup>*</sup></span></label>
+                <input id="user_email" type="email" name="Email Address" placeholder="Your Email Address..." alt="Your Email Address"  required arial-required="true">
+              </div>              
             </div>
-            <select id="subject" name="Subject" required>
-              <option value="Request Information">Request Information</option>
-              <option value="Suggestion">Suggestion</option>
-              <option value="Report an Issue">Report an Issue</option>
-            </select>              
-            <textarea name="Message" placeholder="Your Message..." rows="10" required></textarea>
-            <div class="g-recaptcha" data-sitekey="6LdRa8IjAAAAALZFgYPu3q-u6MScbBcawmvnHg_U"></div>
-            <input type="submit" value="Submit" alt="Submit Button" class="btn_animation">
+            <div>
+              <label for="subject">Choose an option (Subject)<span class="mandatory"><sup>*</sup></span></label>
+              <select id="subject" name="Subject" required arial-required>
+                <option value="Request Information">Request Information</option>
+                <option value="Suggestion">Suggestion</option>
+                <option value="Report an Issue">Report an Issue</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="user_message">Write your message here...<span class="mandatory"><sup>*</sup></span></label>
+              <textarea id="user_message" name="Message" placeholder="Your Message..." rows="10" required></textarea>
+            </div>
+            <div>
+              <div class="g-recaptcha" data-sitekey="6LdRa8IjAAAAALZFgYPu3q-u6MScbBcawmvnHg_U"></div>
+              <input type="submit" value="Submit" alt="Submit Button" class="btn_animation">
+            </div>
           </form>
         </div>
       </div>
@@ -86,19 +100,19 @@
     <div class="universal_container contactus_div3 reveal">
       <div class="contactus_div3_1">
           <div class="contactus_div3_1_1">
-            <div id="test">
-              <h2 id="test1" data-text="&nbsp;Find Us on&nbsp;" class="contactus_div3_1_1_h21">&nbsp;Find Us on&nbsp;</h2>
+            <div id="contactus_div3_1_1_txt_anmt test">
+              <h2 id="contactus_div3_1_1_txt_anmt_1 test1" data-text="&nbsp;Find Us on&nbsp;" class="contactus_div3_1_1_h21">&nbsp;Find Us on&nbsp;</h2>
             </div>
               <p class="contactus_div3_1_1_txt1">
                   <span class="contactus_div3_1_1_txt1_dot1">.</span><span class="contactus_div3_1_1_txt1_dot2">.</span><span class="contactus_div3_1_1_txt1_dot3">.</span><span class="contactus_div3_1_1_txt1_dot4">.</span><span class="contactus_div3_1_1_txt1_dot5">.</span><span class="contactus_div3_1_1_txt1_dot6">.</span>
               </p>
               <ul class="contactus_div3_1_1_socialicons">
-                  <li class="contactus_div3_1_1_socialicons_facebook contactus_div3_1_2_icons"><a href="https://www.facebook.com/ThetaLoop"><i class="uil uil-facebook-f"></i></a></li>
-                  <li class="contactus_div3_1_1_socialicons_insta contactus_div3_1_2_icons"><a href="https://www.instagram.com/thetaloop"><i class="uil uil-instagram"></i></a></li>
-                  <li class="contactus_div3_1_1_socialicons_whatsapp contactus_div3_1_2_icons"><a href="https://wa.me/+94764473001"><i class="uil uil-whatsapp"></i></a></li>
-                  <li class="contactus_div3_1_1_socialicons_twitter contactus_div3_1_2_icons"><a href="https://twitter.com/ThetaLoop"><i class="uil uil-twitter"></i></a></li>
-                  <!-- <li class="contactus_div3_1_1_socialicons_youtube contactus_div3_1_2_icons"><a href="#"><i class="uil uil-youtube"></i></a></li> -->
-                  <li class="contactus_div3_1_1_socialicons_linkedin contactus_div3_1_2_icons"><a href="https://www.linkedin.com/company/thetaloop/"><i class="uil uil-linkedin"></i></a></li>
+                <li class="footer_2_socialicons_facebook"><a href="https://www.facebook.com/ThetaLoop" target="_blank" aria-label="Navigate to our official Facebook page"><i class="uil uil-facebook-f"></i></a></li>
+                <li class="footer_2_socialicons_insta"><a href="https://www.instagram.com/thetaloop" target="_blank" aria-label="Navigate to our official Instagram account"><i class="uil uil-instagram"></i></a></li>
+                <li class="footer_2_socialicons_whatsapp"><a href="https://wa.me/+94764473001" target="_blank" aria-label="Navigate to our official WhatsApp"><i class="uil uil-whatsapp"></i></a></li>
+                <li class="footer_2_socialicons_twitter"><a href="https://twitter.com/ThetaLoop" target="_blank" aria-label="Navigate to our official Twitter account"><i class="uil uil-twitter"></i></a></li>
+                <!-- <li class="footer_2_socialicons_youtube"><a href="#" target="_blank"><i class="uil uil-youtube"></i></a></li> -->
+                <li class="footer_2_socialicons_linkedin"><a href="https://www.linkedin.com/company/thetaloop/" target="_blank" aria-label="Navigate to our official LinkedIn account"><i class="uil uil-linkedin"></i></a></li>
               </ul>
           </div>
       </div>
@@ -111,12 +125,12 @@
           </div>
           <div class="footer_2">
             <ul class="footer_2_socialicons">
-              <li class="footer_2_socialicons_facebook"><a href="https://www.facebook.com/ThetaLoop" target="_blank"><i class="uil uil-facebook-f"></i></a></li>
-              <li class="footer_2_socialicons_insta"><a href="https://www.instagram.com/thetaloop" target="_blank"><i class="uil uil-instagram"></i></a></li>
-              <li class="footer_2_socialicons_whatsapp"><a href="https://wa.me/+94764473001" target="_blank"><i class="uil uil-whatsapp"></i></a></li>
-              <li class="footer_2_socialicons_twitter"><a href="https://twitter.com/ThetaLoop" target="_blank"><i class="uil uil-twitter"></i></a></li>
+              <li class="footer_2_socialicons_facebook"><a href="https://www.facebook.com/ThetaLoop" target="_blank" aria-label="Navigate to our official Facebook page"><i class="uil uil-facebook-f"></i></a></li>
+              <li class="footer_2_socialicons_insta"><a href="https://www.instagram.com/thetaloop" target="_blank" aria-label="Navigate to our official Instagram account"><i class="uil uil-instagram"></i></a></li>
+              <li class="footer_2_socialicons_whatsapp"><a href="https://wa.me/+94764473001" target="_blank" aria-label="Navigate to our official WhatsApp"><i class="uil uil-whatsapp"></i></a></li>
+              <li class="footer_2_socialicons_twitter"><a href="https://twitter.com/ThetaLoop" target="_blank" aria-label="Navigate to our official Twitter account"><i class="uil uil-twitter"></i></a></li>
               <!-- <li class="footer_2_socialicons_youtube"><a href="#" target="_blank"><i class="uil uil-youtube"></i></a></li> -->
-              <li class="footer_2_socialicons_linkedin"><a href="https://www.linkedin.com/company/thetaloop/" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+              <li class="footer_2_socialicons_linkedin"><a href="https://www.linkedin.com/company/thetaloop/" target="_blank" aria-label="Navigate to our official LinkedIn account"><i class="uil uil-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
@@ -139,7 +153,6 @@
         document.documentElement.scrollTop = 0;
       }
     </script>
-
     <script type="text/javascript">
       window.addEventListener('scroll', reveal);
       function reveal(){

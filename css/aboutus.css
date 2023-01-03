@@ -51,9 +51,6 @@
     font-weight: lighter;
 }
 @media screen and (max-width:1243px){
-    /* .universal_container{
-        width: var(--container-width-md);
-    } */
     .aboutus_div1_1_2{
         display: grid;
         grid-template-columns: 1fr;
@@ -152,15 +149,11 @@
     }
 }
 .aboutus_div3_1_2_1_1_img1_img, .buttercup, .aboutus_div3_1_2_3_1_img1_img, .aboutus_div3_1_2_4_1_img1_img, .aboutus_div3_1_2_5_1_img1_img{
-    /* height: auto; */
-    /* width: 100%; */
     border-radius: 2rem;
     min-width: 130px;
-    /* margin-left: 20%; */
 }
 .aboutus_div3{
     padding: 1rem;
-    /* margin-top: 50px; */
 }
 .aboutus_div3 img{
     max-width: 180px;
